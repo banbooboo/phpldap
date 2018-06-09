@@ -1,0 +1,13 @@
+{
+    "name": "bambooboo/phpldap",
+    "description": "some basic methods about ldap's management by php",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bambooboo\\PHPLdap\\": "src/"
+        }
+    }
+
+}
