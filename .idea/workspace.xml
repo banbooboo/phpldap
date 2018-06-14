@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b9428df-e2be-42d8-acd6-0a1e16d4a3c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/LdapTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ldap.php" afterPath="$PROJECT_DIR$/src/Ldap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/LdapTest.php" afterPath="$PROJECT_DIR$/tests/LdapTest.php" />
     </list>
     <ignored path="bambooboo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="380">
-                <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <first_editor relative-caret-position="345">
+                <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -107,20 +106,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="phpldap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpldap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpldap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,12 +214,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528520929389</updated>
       <workItem from="1528520930762" duration="1011000" />
-      <workItem from="1528951202618" duration="2521000" />
+      <workItem from="1528951202618" duration="2970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3532000" />
+    <option name="totallyTimeSpent" value="3981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -311,39 +296,39 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo.php" />
-    <entry file="file://$PROJECT_DIR$/tests/LdapTest.php">
+    <entry file="file://$PROJECT_DIR$/src/Ldap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="70" />
+        <state relative-caret-position="129">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="36" />
           <folding>
-            <marker date="1528952686008" expanded="true" signature="358:382" ph="..." />
+            <marker date="1528954102502" expanded="true" signature="47:2624" ph="..." />
+            <marker date="1528954102502" expanded="true" signature="55:242" ph=" Connect to an LDAP server and Bind to LDAP directory ..." />
+            <marker date="1528954102502" expanded="true" signature="315:560" ph="..." />
+            <marker date="1528954102502" expanded="true" signature="454:528" ph="..." />
+            <marker date="1528954102502" expanded="true" signature="570:717" ph="  Get all result entries ..." />
+            <marker date="1528954102502" expanded="true" signature="794:933" ph="..." />
+            <marker date="1528954102502" expanded="true" signature="943:1071" ph=" @param $ldap_res ..." />
+            <marker date="1528954102502" expanded="true" signature="1126:1306" ph="..." />
+            <marker date="1528954102502" expanded="true" signature="1316:1455" ph=" @param $ldap_res ..." />
+            <marker date="1528954102502" expanded="true" signature="1511:1595" ph="..." />
+            <marker date="1528954102502" expanded="true" signature="1605:1712" ph=" @param $ldap_res ..." />
+            <marker date="1528954102502" expanded="true" signature="1772:1861" ph="..." />
+            <marker date="1528954102502" expanded="true" signature="1871:2014" ph=" @param $ldap_res ..." />
+            <marker date="1528954102502" expanded="true" signature="2071:2156" ph="..." />
+            <marker date="1528954102502" expanded="true" signature="2166:2273" ph=" @param $ldap_res ..." />
+            <marker date="1528954102502" expanded="true" signature="2319:2392" ph="..." />
+            <marker date="1528954102502" expanded="true" signature="2402:2506" ph=" @param $ldap_res ..." />
+            <marker date="1528954102502" expanded="true" signature="2552:2622" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ldap.php">
+    <entry file="file://$PROJECT_DIR$/tests/LdapTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="254">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="42" selection-end-column="43" />
           <folding>
-            <marker date="1528951898244" expanded="true" signature="47:2625" ph="..." />
-            <marker date="1528951898244" expanded="true" signature="55:242" ph=" Connect to an LDAP server and Bind to LDAP directory ..." />
-            <marker date="1528951898244" expanded="true" signature="315:560" ph="..." />
-            <marker date="1528951898244" expanded="true" signature="454:528" ph="..." />
-            <marker date="1528951898244" expanded="true" signature="570:717" ph="  Get all result entries ..." />
-            <marker date="1528951898244" expanded="true" signature="794:933" ph="..." />
-            <marker date="1528951898244" expanded="true" signature="943:1071" ph=" @param $ldap_res ..." />
-            <marker date="1528951898244" expanded="true" signature="1126:1306" ph="..." />
-            <marker date="1528951898244" expanded="true" signature="1316:1455" ph=" @param $ldap_res ..." />
-            <marker date="1528951898244" expanded="true" signature="1511:1595" ph="..." />
-            <marker date="1528951898244" expanded="true" signature="1605:1712" ph=" @param $ldap_res ..." />
-            <marker date="1528951898244" expanded="true" signature="1773:1862" ph="..." />
-            <marker date="1528951898244" expanded="true" signature="1872:2015" ph=" @param $ldap_res ..." />
-            <marker date="1528951898244" expanded="true" signature="2072:2157" ph="..." />
-            <marker date="1528951898244" expanded="true" signature="2167:2274" ph=" @param $ldap_res ..." />
-            <marker date="1528951898244" expanded="true" signature="2320:2393" ph="..." />
-            <marker date="1528951898244" expanded="true" signature="2403:2507" ph=" @param $ldap_res ..." />
-            <marker date="1528951898244" expanded="true" signature="2553:2623" ph="..." />
+            <marker date="1528954189982" expanded="true" signature="358:382" ph="..." />
           </folding>
         </state>
       </provider>
@@ -351,8 +336,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="380">
-            <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <first_editor relative-caret-position="345">
+            <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
             <folding />
           </first_editor>
           <second_editor />

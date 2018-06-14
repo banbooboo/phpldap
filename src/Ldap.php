@@ -65,7 +65,7 @@ class Ldap{
      * @param $dn
      * @param $entry
      */
-    public  function LdapModReplace($ldap_res,$dn,$entry){
+    public function LdapModReplace($ldap_res,$dn,$entry){
         $result = ldap_mod_replace($ldap_res, $dn, $entry);
         return $result;
     }
