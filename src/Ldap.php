@@ -103,7 +103,4 @@ class Ldap{
         $result=ldap_add($ldap_res,$dn);
         return $result;
     }
-    public function test(){
-        echo 11;
-    }
 }
